@@ -1,13 +1,25 @@
 body{
     margin: 0;
     padding: 0;
-    background: #86a4db;
+    background: #ececec;
 }
 
 .box {
-    width: 200px;
+    width: 500px;
     height: 200px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 25%;
+}
+
+a {
+    color: rgb(104, 104, 107);
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(84, 84, 87);
 }
