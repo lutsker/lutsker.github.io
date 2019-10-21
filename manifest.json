@@ -1,7 +1,7 @@
 {
   "name": "VL Home App",
   "short_name": "VL Home",
-  "start_url": "/index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color" : "#fff" ,
   "description": "My homepage app."
