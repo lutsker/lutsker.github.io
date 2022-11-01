@@ -23,3 +23,7 @@ a:hover {
     text-decoration: none;
     color: rgb(84, 84, 87);
 }
+
+li {
+    list-style-type: none;
+}
