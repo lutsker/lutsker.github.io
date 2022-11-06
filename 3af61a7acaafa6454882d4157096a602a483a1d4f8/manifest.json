@@ -3,13 +3,12 @@
     "name": "okkaufr app",
     "description": "",
     "start_url": "/index.html",
-    "scope": "/",
     "display": "fullscreen",
     "icons": [{
         "src": "rcpyr-icon.png",
         "type": "image/png",
         "sizes": "512x512"
     }],
-    "theme_color": "#242424",
-    "background_color": "#242424"
+    "theme_color": "#240424",
+    "background_color": "#240424"
 }
