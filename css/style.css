@@ -1,29 +1,51 @@
-body{
-    margin: 0;
-    padding: 0;
-    background: #ececec;
+body {
+    margin    : 0;
+    padding   : 0;
+    background: white;
 }
 
 .box {
-    width: 500px;
-    height: 200px;
+    width   : 500px;
+    height  : 200px;
     position: absolute;
-    top: 50%;
-    left: 25%;
+    top     : 50%;
+    left    : 25%;
 }
 
 a {
-    color: rgb(104, 104, 107);
-    font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;
+    color          : rgb(104, 104, 107);
+    font-size      : 24px;
+    font-family    : 'Courier New', Courier, monospace;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: none;
-    color: rgb(84, 84, 87);
+    color          : rgb(84, 84, 87);
 }
 
 li {
     list-style-type: none;
+}
+
+img {
+    display      : block;
+    margin-left  : auto;
+    margin-right : auto;
+    width        : 20%;
+    border-radius: 60%;
+    padding      : 10px;
+}
+
+.header {
+    background-color: black;
+}
+
+.about-me {
+    text-align: center;
+    margin    : 30px;
+}
+
+.footer {
+    text-align: center;
 }
