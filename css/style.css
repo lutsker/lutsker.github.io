@@ -1,8 +1,27 @@
-body {
+html, body {
+    box-sizing: border-box;
+    height: 100%;
     margin    : 0;
     padding   : 0;
     background: white;
 }
+
+.wrapper {
+    box-sizing: border-box;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header, .footer {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.about-me {
+    flex-grow: 1;
+    /* background-color: aqua; */
+}
+
+
 
 .box {
     width   : 500px;
@@ -28,13 +47,55 @@ li {
     list-style-type: none;
 }
 
-img {
+.copyright {
+    font-size: small;
+}
+
+img.profile-foto  {
     display      : block;
     margin-left  : auto;
     margin-right : auto;
     width        : 20%;
     border-radius: 60%;
     padding      : 10px;
+}
+@media screen and (max-width: 900px) {
+    img.profile-foto  {
+        display      : block;
+        margin-left  : auto;
+        margin-right : auto;
+        width        : 35%;
+        border-radius: 60%;
+        padding      : 10px;
+    }        
+}
+
+@media screen and (max-width: 600px) {
+    img.profile-foto  {
+        display      : block;
+        margin-left  : auto;
+        margin-right : auto;
+        width        : 50%;
+        border-radius: 60%;
+        padding      : 10px;
+    }        
+}
+
+.main-quote {
+    /* background-color: blueviolet; */
+    padding-top: 40px;
+    font-size:larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+img.github-logo {
+    width: 58px;
+}
+
+
+.social li {
+    display: inline;
 }
 
 .header {
