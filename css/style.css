@@ -102,6 +102,7 @@ img.github-logo {
 
 .header {
     background-color: black;
+    height: 50px;
 }
 
 .about-me {
@@ -111,4 +112,8 @@ img.github-logo {
 
 .footer {
     text-align: center;
+}
+
+header a {
+    padding: 15px;
 }
