@@ -1,0 +1,245 @@
+html,
+body {
+    box-sizing: border-box;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.wrapper {
+    background-color: white;
+
+}
+
+.header-subtitle {
+    font-size: medium;
+}
+
+section.project-card-body {
+    font-size: small;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+main {
+    padding: 10px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    margin-left: 0%;
+    margin-right: 0%;
+    text-align: justify;
+}
+
+.ambition {
+font-size: medium;
+text-align: justify;
+}
+
+section.skills {
+    display: grid;
+    grid-template-areas: 
+    "item item"
+    "item item";
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    /* background-color: brown; */
+    padding: 5px;
+}
+
+section.skills > div.skill-card {
+    grid-area: "item";
+    text-align: left;
+    /* background-color: blueviolet; */
+    padding: 5px;
+}
+
+.skill-card-title {
+    font-weight: bold;
+}
+
+
+section.projects {
+    display: grid;
+    grid-template-areas: 
+    "proj" "proj"
+    "proj" "proj";
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    padding: 5px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+section.projects > div.project-card {
+    grid-area: "proj";
+    margin: 10px;
+    padding: 10px;
+    /* background-color: #78c0a8; */
+}
+
+img.project-card-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+main div.section-title {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color:gray;
+    text-align: center;
+    font-size: larger ;
+    text-transform: uppercase;
+}
+
+
+
+a {
+    color: rgb(104, 104, 107);
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(84, 84, 87);
+}
+
+li {
+    list-style-type: none;
+}
+
+.copyright {
+    font-size: small;
+}
+
+
+header.project-card-title {
+    text-align: center;
+    font-size: large;
+}
+
+
+@media screen and (min-width: 1500px) {
+    body {
+        margin-left: 28%;
+        margin-right: 28%;
+    }
+    
+
+}
+
+@media screen and (max-width: 900px) {
+    img.profile-foto {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+        border-radius: 60%;
+        padding: 10px;
+    }
+
+
+    section.projects {
+        display: flex;
+        flex-direction: column;
+    }
+    section.skills {
+
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    img.profile-foto {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 60%;
+        padding: 10px;
+    }
+
+    section.projects {
+        flex-direction: column;
+    }
+
+}
+
+q {
+    /* background-color: blueviolet; */
+    padding-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
+}
+
+
+img.github-logo {
+    width: 58px;
+}
+
+
+.social li {
+    display: inline;
+}
+
+.header {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: larger;
+    margin: 25px;
+    /* height: 50px; */
+}
+
+
+nav li {
+    display: inline;
+}
+
+
+.about-me {
+    text-align: center;
+    margin: 30px;
+}
+
+.footer {
+    padding: 20px;
+}
+
+footer > .social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+
+header a {
+    padding: 15px;
+}
